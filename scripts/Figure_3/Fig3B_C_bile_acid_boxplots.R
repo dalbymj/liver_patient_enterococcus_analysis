@@ -212,7 +212,7 @@ make_bile_acid_boxplot <- function(data, bile_acid_name, y_label, y_limit, annot
       axis.text.y = element_text(size = 7, colour = "black"),
       axis.ticks = element_line(linewidth = 0.35, colour = "black"),
       axis.line = element_line(linewidth = 0.35, colour = "black"),
-      aspect.ratio = 1
+      aspect.ratio = 2
     )
   
   if (nrow(annotations) > 0) {
